@@ -1,5 +1,11 @@
-# Ask user to enter their name
-print("What is your name?")
-name = input()
-print(f"It is nice to meet you {name}")
+# # Ask user to enter their name
+# print("What is your name?")
+# name = input()
+# print(f"It is nice to meet you {name}")
 
+eye_char = input("Please enter a character for the eye: ")
+
+print("##########")
+print(f"#| {eye_char}  {eye_char} |#")
+print("#| ---- |#")
+print("##########")
