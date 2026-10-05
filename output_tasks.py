@@ -24,8 +24,10 @@ print("\' Displays a single quote")
 
 print("\t \"I am programming!\"")
 
+eyes_char = input("Please enter a character for the eye: ")
+
 # Display a box
 print("##########")
-print("#| o  o |#")
-print("#| ---- |#")
+print(f"#| {eyes_char}  {eyes_char} |#")
+print(f"#| ---- |#")
 print("##########")
